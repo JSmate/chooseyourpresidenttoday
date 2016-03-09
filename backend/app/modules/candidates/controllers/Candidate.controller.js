@@ -1,22 +1,22 @@
 'use strict';
 
-var Person = require('../models/PersonModel');
+var Candidate = require('../models/CandidateModel');
 
 module.exports = {
     query: function (req, res) {
-        Person.find(function (err, people) {
+        Candidate.find(function (err, people) {
            res.json(people);
         });
     },
     create: function (req, res) {
         console.log(req.body);
-        var person = new Person(req.body);
+        var Candidate = new Candidate(req.body);
 
-        person.save(function(err) {
+        Candidate.save(function(err) {
             if (err) {
 
             } else {
-                res.json(person);
+                res.json(Candidate);
             }
         });
     }
