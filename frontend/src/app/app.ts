@@ -21,7 +21,8 @@ require('./modules/main/assets/sass/styles.scss');
 
 //modules
 import {mainModule} from './modules/main/index';
-import {homeModule} from './modules/home/index'
+import {homeModule} from './modules/home/index';
+import {votingModule} from './modules/voting/index';
 
 //Start by defining the main module and adding the module dependencies
 angular.module('app', [
@@ -33,7 +34,8 @@ angular.module('app', [
     'angular-loading-bar',
 
     mainModule.name,
-    homeModule.name
+    homeModule.name,
+    votingModule.name
 ]);
 
 //Then define the init function for starting up the application
