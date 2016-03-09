@@ -10,13 +10,13 @@ module.exports = {
     },
     create: function (req, res) {
         console.log(req.body);
-        var Candidate = new Candidate(req.body);
+        var candidate = new Candidate(req.body);
 
-        Candidate.save(function(err) {
+        candidate.save(function(err) {
             if (err) {
 
             } else {
-                res.json(Candidate);
+                res.json(candidate);
             }
         });
     }

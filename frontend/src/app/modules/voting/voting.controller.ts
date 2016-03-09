@@ -1,9 +1,10 @@
-import {Candidate} from './components/candidate/candidate.model';
+import {CandidateResource} from './models/candidate-resource.model';
+import {CandidateResourceClass} from './models/candidate-resource.model';
 
 export class VotingController {
-    public candidates:Candidate[];
+    public candidates:CandidateResource[];
 
-    constructor(private Candidate) {
+    constructor(private Candidate:CandidateResourceClass) {
         'ngInject';
     }
 
@@ -11,7 +12,7 @@ export class VotingController {
         this.candidates = this.Candidate.query();
     }
 
-    public onCandidateClick(candidate:Candidate) {
+    public onCandidateClick(candidate:CandidateResource) {
         console.log(candidate);
     }
 }

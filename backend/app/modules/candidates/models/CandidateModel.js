@@ -20,6 +20,11 @@ var CandidateSchema = new Schema({
         type: String,
         default: '',
         trim: true
+    },
+    image: {
+        type: String,
+        default: '',
+        trim: true
     }
 });
 

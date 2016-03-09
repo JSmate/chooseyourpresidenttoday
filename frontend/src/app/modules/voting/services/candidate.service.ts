@@ -1,24 +1,12 @@
 import {Candidate} from '../components/candidate/candidate.model';
+import {CandidateResourceClass} from '../models/candidate-resource.model';
 'use strict';
 
-export function CandidateService () {
-    const _query = function ():Candidate[] {
-        return [{
-            firstname: 'Donald Trump',
-            lastname: 'Trump',
-            image: 'http://inthesetimes.com/images/articles/trump_flicker_face_yess.jpg'
-        }, {
-            firstname: 'Donald Trump',
-            lastname: 'Trump',
-            image: 'http://inthesetimes.com/images/articles/trump_flicker_face_yess.jpg'
-        }, {
-            firstname: 'Donald Trump',
-            lastname: 'Trump',
-            image: 'http://inthesetimes.com/images/articles/trump_flicker_face_yess.jpg'
-        }];
-    };
+export function CandidateService ($resource, Api):CandidateResourceClass {
+    'ngInject';
 
-    return {
-        query: _query
-    }
+    return $resource(Api.base + Api.candidate,
+        {id: '@id'}, {
+
+        }) as CandidateResourceClass;
 }
