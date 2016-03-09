@@ -1,10 +1,10 @@
 'use strict';
 
 var express = require('express');
-var people = express();
+var candidate = express();
 
 var router = require('./router');
 
-people.use(router);
+candidate.use(router);
 
-module.exports = people;
+module.exports = candidate;

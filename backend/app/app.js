@@ -16,9 +16,7 @@ var router = require('./router');
 var errorMiddleware = require('./middlewares/ErrorMiddleware');
 var corsMiddleware = require('./middlewares/CorsMiddleware');
 
-var user = require('./modules/user');
-
-mongoose.connect('mongodb://wuzel-api:12345@ds035603.mongolab.com:35603/wuzel');
+mongoose.connect(config.dbConnection);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -36,7 +34,8 @@ app.use(cookieParser());
 app.use(corsMiddleware);
 
 app.use(router);
-app.use(user);
+app.use(require('./modules/candidates'));
+app.use(require('./modules/user'));
 app.use('/api', errorMiddleware);
 
 app.use(function (req, res) {

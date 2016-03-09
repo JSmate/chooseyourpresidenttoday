@@ -4,9 +4,9 @@ var mongoose = require('mongoose'),
     Schema = mongoose.Schema;
 
 /**
- * Person Schema
+ * Candidate Schema
  */
-var PersonSchema = new Schema({
+var CandidateSchema = new Schema({
     created: {
         type: Date,
         default: Date.now
@@ -23,4 +23,4 @@ var PersonSchema = new Schema({
     }
 });
 
-module.exports = mongoose.model('Person', PersonSchema);
+module.exports = mongoose.model('Candidate', CandidateSchema);
