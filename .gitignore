@@ -1,5 +1,5 @@
 .idea
+/backend/app/config.js
 npm-debug.log
-
 typings
 node_modules
