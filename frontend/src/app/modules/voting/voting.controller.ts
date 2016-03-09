@@ -10,4 +10,8 @@ export class VotingController {
     private $onInit() {
         this.candidates = this.Candidate.query();
     }
+
+    public onCandidateClick(candidate:Candidate) {
+        console.log(candidate);
+    }
 }

@@ -9,7 +9,9 @@ const template:string = require('./candidate.template.html') as string;
 export const candidateComponent:IComponentOptions = {
     templateUrl: template,
     bindings: {
-        candidate: '<'
+        candidate: '<',
+
+        onClick: '&'
     },
     controller: CandidateController,
     controllerAs: 'vm'

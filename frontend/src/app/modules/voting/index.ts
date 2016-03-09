@@ -1,3 +1,5 @@
+require('./assets/sass/styles.scss');
+
 import {IModule} from 'angular';
 
 import * as angular from 'angular';
