@@ -81,7 +81,8 @@
     "expose-loader": "^0.7.1",
     "font-awesome": "^4.5.0",
     "jquery": "^2.1.4",
-    "mdi": "^1.4.57"
+    "mdi": "^1.4.57",
+    "satellizer": "^0.14.0"
   },
   "bugs": {
     "url": "https://github.com/JSmate/chooseyourpresidenttoday/issues"

@@ -14,11 +14,13 @@ require('angular-sanitize');
 require('angular-animate');
 require('angular-ui-bootstrap');
 require('angular-loading-bar');
+require('satellizer');
 
 //modules
 import {mainModule} from './modules/main/index';
 import {homeModule} from './modules/home/index';
 import {votingModule} from './modules/voting/index';
+import {authenticationModule} from './modules/authentication/index';
 
 //styles
 require('angular-loading-bar/build/loading-bar.css');
@@ -35,7 +37,8 @@ angular.module('app', [
 
     mainModule.name,
     homeModule.name,
-    votingModule.name
+    votingModule.name,
+    authenticationModule.name
 ]);
 
 //Then define the init function for starting up the application
