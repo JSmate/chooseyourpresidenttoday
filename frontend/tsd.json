@@ -1,0 +1,45 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "jquery/jquery.d.ts": {
+      "commit": "3a86e056dc018541d82dd74639fca18ba8d605da"
+    },
+    "angular-ui-bootstrap/angular-ui-bootstrap.d.ts": {
+      "commit": "0d66537e353802f996a3f67ca1b711f63835f9e7"
+    },
+    "angular-ui-router/angular-ui-router.d.ts": {
+      "commit": "0d66537e353802f996a3f67ca1b711f63835f9e7"
+    },
+    "angularjs/angular-animate.d.ts": {
+      "commit": "0d66537e353802f996a3f67ca1b711f63835f9e7"
+    },
+    "angularjs/angular-sanitize.d.ts": {
+      "commit": "0d66537e353802f996a3f67ca1b711f63835f9e7"
+    },
+    "angularjs/angular-resource.d.ts": {
+      "commit": "0d66537e353802f996a3f67ca1b711f63835f9e7"
+    },
+    "assertion-error/assertion-error.d.ts": {
+      "commit": "95b7178e0ef33b4b88327676418b4cc3ad61df0f"
+    },
+    "chai/chai.d.ts": {
+      "commit": "95b7178e0ef33b4b88327676418b4cc3ad61df0f"
+    },
+    "mocha/mocha.d.ts": {
+      "commit": "95b7178e0ef33b4b88327676418b4cc3ad61df0f"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "dade4414712ce84e3c63393f1aae407e9e7e6af7"
+    },
+    "sinon/sinon.d.ts": {
+      "commit": "dade4414712ce84e3c63393f1aae407e9e7e6af7"
+    },
+    "angularjs/angular.d.ts": {
+      "commit": "3a86e056dc018541d82dd74639fca18ba8d605da"
+    }
+  }
+}
