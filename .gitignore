@@ -1,5 +1,6 @@
 .idea
 /backend/app/config.js
+/backend/apidoc
 npm-debug.log
 typings
 node_modules

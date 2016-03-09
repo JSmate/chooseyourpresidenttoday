@@ -1,7 +1,8 @@
 'use strict';
 
 var router = require('express').Router();
-var candidateController = require('./controllers/CandidateController');
+var candidateController = require('./controllers/Candidate.controller');
+
 
 router.route('/api/candidate')
     .get(candidateController.query)
