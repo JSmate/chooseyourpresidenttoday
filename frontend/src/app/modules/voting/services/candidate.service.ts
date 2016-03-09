@@ -7,6 +7,14 @@ export function CandidateService () {
             firstname: 'Donald Trump',
             lastname: 'Trump',
             image: 'http://inthesetimes.com/images/articles/trump_flicker_face_yess.jpg'
+        }, {
+            firstname: 'Donald Trump',
+            lastname: 'Trump',
+            image: 'http://inthesetimes.com/images/articles/trump_flicker_face_yess.jpg'
+        }, {
+            firstname: 'Donald Trump',
+            lastname: 'Trump',
+            image: 'http://inthesetimes.com/images/articles/trump_flicker_face_yess.jpg'
         }];
     };
 
