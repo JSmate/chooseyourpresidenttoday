@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/server.js",
+  "bin": {
+    "backend": "server.js"
+  },
+  "scripts": {
+    "start": "node bin/server.js",
+    "watch": "nodemon bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "glob": "^7.0.3",
+    "http": "0.0.0",
+    "jwt-simple": "^0.4.1",
+    "moment": "^2.12.0",
+    "mongoose": "^4.4.6",
+    "mongoose-validator": "^1.2.4",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "request": "^2.69.0",
+    "serve-favicon": "^2.3.0"
+  }
+}

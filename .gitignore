@@ -1,5 +1,5 @@
 .idea
 npm-debug.log
 
-frontend/typings
-frontend/node_modules
+typings
+node_modules
